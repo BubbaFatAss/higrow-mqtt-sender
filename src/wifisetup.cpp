@@ -1,10 +1,10 @@
 #include <WiFi.h>
 #include <WiFiClient.h>
-#include "wifi.h"
+#include "wifisetup.h"
 
 const int WIFI_CONNECT_TIMEOUT_SECONDS = 10;
 
-boolean connect_wifi() {
+bool connect_wifi() {
   Serial.print(F("Connecting to wifi "));
   Serial.println(WIFI_SSID);
   WiFi.mode(WIFI_STA);
