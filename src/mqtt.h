@@ -5,6 +5,6 @@
 #include <ArduinoJson.h>
 #include <PubSubClient.h>
 
-boolean reconnect_mqtt(PubSubClient client, const char* client_id);
+boolean reconnect_mqtt(PubSubClient& client, const char* client_id);
 
 #endif
