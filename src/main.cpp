@@ -148,7 +148,7 @@ void sendMQTTDiscoveryTopic() {
 void setup() {
   Serial.begin(115200);
   Serial.println("");
-  Serial.println(F("Hello :)\nHigrow MQTT sender\nhttps://github.com/tom-mi/higrow-mqtt-sender"));
+  Serial.println(F("Hello :)\nHigrow MQTT sender\nhttps://github.com/BubbaFatAss/higrow-mqtt-sender"));
 
   pinMode(INFO_LED_PIN, OUTPUT);
 
